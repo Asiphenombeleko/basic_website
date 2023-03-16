@@ -1,0 +1,72 @@
+body {padding: 2em;
+    margin: 1em;
+    border-radius: 2em;
+    background-color: antiquewhite;
+
+
+
+}
+
+
+
+.image4 {margin-right: 30px;
+
+    float: left;
+    width: 300px;
+}
+
+.intro{
+    display: flex;
+}
+
+table,
+td,
+ th {
+    border: 1px solid black;
+    padding: 0.5em;
+    border-collapse: collapse;
+    text-align: center;
+}
+.clearfix{
+    overflow: auto;
+    
+}
+
+.image1 {  
+    float: left;
+    width: 300px;
+} 
+
+.image3 {margin-right: 60px;
+    margin-bottom: 30px;  
+text-align: center;
+    float: right;
+    width: 300px;
+}
+
+.image4 {width: 300px;
+    float: left;
+}
+.image5 {margin-right: 30px;
+    float: left; 
+}
+
+.history{
+    width: 300px;
+}
+
+@media(min-width: 760px) {
+display: flex: ;;
+   
+}
+
+
+
+@media(min-width: 960px){
+flex-direction: column;
+
+
+
+}
+    
+
