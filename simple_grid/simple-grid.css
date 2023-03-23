@@ -8,7 +8,8 @@
 /* UNIVERSAL */
 
 html,
-.main {background-color: aliceblue;
+.main {
+  background-color: aliceblue;
   height: 100%;
   width: 100%;
   left: 0;
@@ -27,15 +28,21 @@ html,
 /* TYPOGRAPHY */
 
 h1 {
-  position: relative;top:112px;
+  position: relative;
+  top: 112px;
   font-size: 2.5rem;
+}
+
+.h2_city {
+  text-align: center;
 }
 
 h2 {
   font-size: 2rem;
 }
 
-h3 {text-align: center;
+h3 {
+  text-align: center;
   font-size: 1.375rem;
 }
 
@@ -56,10 +63,11 @@ p {
   font-weight: 200;
   line-height: 1.8;
 }
+
 table,
 td,
-th
-{border: 1px solid black;
+th {
+  border: 1px solid black;
   padding: 0.5em;
   border-collapse: collapse;
   text-align: center;
@@ -67,10 +75,15 @@ th
   height: auto;
 }
 
+.container4 {
+  text-align: center;
+}
+
 .img {
-  float: left; 
+  float: left;
   padding-right: 1em;
 }
+
 .font-light {
   font-weight: 300;
 }
@@ -129,11 +142,10 @@ th
 .col-5,
 .col-6,
 .col-7,
-.col-8
-.col-9,
+.col-8 .col-9,
 .col-10,
 .col-11,
-.col-12 {
+.col-12 {text-align: center;
   width: 96%;
 }
 
@@ -186,56 +198,70 @@ th
 }
 
 .row::after {
-	content: "";
-	display: table;
-	clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .hidden-sm {
   display: none;
 }
 
-@media only screen and (min-width: 34em) {  /* 540px */
+@media only screen and (min-width: 34em) {
+  /* 540px */
 
   h1 {
     text-align: center;
-    position: relative;left:0px; top:0px;
+    position: relative;
+    left: 0px;
+    top: 0px;
   }
+
   .img {
-        width: 150px;
-        float: right;
-        padding-right: 2em;
-        padding-left: 0px;
+    width: 150px;
+    float: right;
+    padding-right: 2em;
+    padding-left: 0px;
   }
 
 }
 
-@media only screen and (min-width: 20em) {  /* 540px */
+@media only screen and (min-width: 20em) {
+  /* 540px */
 
   h1 {
     text-align: center;
-    position: relative;left:0px; top:0px;
+    position: relative;
+    left: 0px;
+    top: 0px;
   }
 
-.col-7{
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}  
-.img {width: 150px;
-  float: right;
-  padding-right: 2em;
-  padding-left: 0px;
-}
+  .col-7 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .img {
+    width: 150px;
+    float: right;
+    padding-right: 2em;
+    padding-left: 0px;
+  }
 
 }
 
-@media only screen and (min-width: 45em) {  /* 720px */
+@media only screen and (min-width: 45em) {
+
+  /* 720px */
   h1 {
-    position: relative;top:112px;
+    position: relative;
+    top: 112px;
     font-size: 2.5rem;
   }
-  .img {width: 150px;
+
+  .img {
+    width: 150px;
     float: left;
     padding-right: 2em;
     padding-left: 0px;
@@ -296,4 +322,3 @@ th
 
 
 }
-
