@@ -8,43 +8,68 @@
     <title>Document</title>
 
     <style>
-    
-    body {
+        body {
+            margin: 2em;
+            border-radius: 3em;
+            border: 2em;
+            font-size: larger;
 
-        font-size: xx-large;
-    }
-    .links {
-        padding: 1.0em;
-        margin: 1.5em;
-        background-color: rgb(211, 124, 169);
-        width: 15em;
-    }
+        }
+        .linky {
+            display: flex;
+            place-content: center;
+        }
+        .links {
 
-    button:hover {
-        background-color: rgb(237, 95, 95);
-    }
-    h1 {
-        text-align: center;
-        padding: 1.433em;
-        margin: 0.8em;
-        width: 18em;
-        background-color: rgb(223, 39, 159);
-    }
+            padding: 1.0em;
+            margin: 1.5em;
+            background-color: rgb(211, 124, 169);
+            width: 15em;
+        }
+
+        button:hover {
+            background-color: rgb(237, 95, 95);
+        }
+
+        h1 {
+
+            padding: 1.433em;
+            margin: 0.8em;
+            width: 80%;
+            background-color: rgb(223, 39, 159);
+        }
+
+        /*@media (max-width: 340px){
+        body { 
+         border-radius: 3em;
+        border: 2em;
+        font-size: small;
+        display: flex;
+        flex-direction: column;
+        }
+    }*/
     </style>
 </head>
 
 
 <body>
-    <h1>Landing page:  Basic Website</h1>
-    <div class="links">
-        <a class="simple" href="../basic_website/simple_grid/my-webpage-grid.html" ><button class="sg">Simple Grid Website</button> 
-            
-        </a>
+    <div class="landing">
+        <h1><img src="images/image6.png" width="10%" height="10%">Landing page: Basic Website</h1>
     </div>
-    <div class="links">
-        <a class="basic" href="../basic_website/without_framework/index.html"><button class="wf">Website Without Framework</button>
-            
-        </a>
+    <div class="linky">
+        <div class="links">
+            <a class="simple" href="../basic_website/simple_grid/my-webpage-grid.html"><button class="sg">Simple Grid
+                    Website</button>
+
+            </a>
+        </div>
+        <div class="links">
+            <a class="basic" href="../basic_website/without_framework/index.html"><button class="wf">Website Without
+                    Framework</button>
+
+            </a>
+
+        </div>
     </div>
 </body>
 
